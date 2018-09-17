@@ -1,0 +1,83 @@
+@import url('~leaflet/dist/leaflet.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+.leaflet-container {
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type='text'] {
+  width: 200px;
+  padding: 8px;
+  margin: 5px 10px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid rgb(206, 206, 206);
+  transition: border, 0.4s ease;
+}
+
+input[type='text']:focus {
+  outline: none;
+  border: 1px solid #2b82cb;
+}
+
+::placeholder {
+  color: #cecece;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #cecece;
+}
+
+::-ms-input-placeholder {
+  color: #cecece;
+}
+
+.button {
+  background-color: #2b82cb;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  transition: background-color, 0.4s ease;
+}
+
+.button:hover {
+  background-color: #196c9c;
+}
+
+.button_delete {
+  background-color: #e26c6c;
+}
+
+.button_delete:hover {
+  background-color: #c55252;
+}
+
+.button_back {
+  background-color: #d3d3d3;
+}
+
+.button_back:hover {
+  background-color: #999999;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  padding: 10px;
+}
