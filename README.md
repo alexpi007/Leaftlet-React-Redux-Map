@@ -1,4 +1,4 @@
-# Welcome!
+# Welcome to Leaftlet-React-Redux-Map!
 This app is developed with ReactJS, Redux and React-Leaflet. Redux and ImmutableJS manage different marker actions on a map. Built with CRA!
 
 
