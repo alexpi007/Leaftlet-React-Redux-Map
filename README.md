@@ -33,3 +33,5 @@ _Note: usually I also use redux-saga to manage API requests and create tasks, bu
 I added two functions in _"/src/utils"_ folder so that the app will save State tree on localStorage every time `subscribe(listener)` intercept a Store change (dispatched action).
 
 # That's all, I hope you enjoy it!
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZVS9G9UVL6LAJ)
