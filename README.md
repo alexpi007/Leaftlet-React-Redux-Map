@@ -6,7 +6,7 @@ This app is developed with ReactJS, Redux and React-Leaflet. Redux and Immutable
 
 Installing and running the project:
 `$ npm install` and `$ npm start`, this last provides compiling and watcher for .scss file!
-I used stable version of node (**node v10.9.0** and **npm v6.2.0**).
+I used LTS version of node - **v10.14.0** (npm v6.4.1).
 
 _Note: compiled css will be ignored by the`.gitignore` file._
 
